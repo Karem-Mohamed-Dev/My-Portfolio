@@ -8,11 +8,11 @@ const Footer = () => {
   return (
     <footer id="contact" className="border-t-[1px] border-gray-800 p-5">
       <div className="container mx-auto">
-        <div className="flex justify-between mb-5">
+        <div className="flex flex-col items-center gap-y-10 text-center md:flex-row md:justify-between mb-5">
           <div className="left">
-            <h3 className="text-3xl font-medium">That"s All About Me</h3>
+            <h3 className="text-xl md:text-2xl lg:text-3xl font-medium">That"s All About Me</h3>
             <p className="my-2 text-gray-400">You Can Find Me Here</p>
-            <div className="flex text-3xl gap-x-2">
+            <div className="flex text-xl md:text-2xl lg:text-3xl gap-x-2 justify-center lg:justify-start">
               <Link target="_blank" href="https://www.facebook.com/profile.php?id=100008974722319">
                 <FaFacebookSquare />
               </Link>
@@ -31,11 +31,11 @@ const Footer = () => {
             </div>
           </div>
           <div className="">
-            <h3 className="text-3xl font-medium mb-8">If You Want To Hire Me </h3>
+            <h3 className="text-xl md:text-2xl lg:text-3xl font-medium mb-8">If You Want To Hire Me </h3>
             <a className="px-6 py-3 border-[1px] border-white bg-white text-black rounded-sm font-medium duration-300 hover:bg-transparent hover:text-white" href="mailto:karem109k@gmail.com">Get in touch</a>
           </div>
         </div>
-        <p className="text-center">Designed and Developed by <Link className="text-main underline" href="https://www.linkedin.com/in/karem-mohamed-a789a6239/">Karim Mohamed</Link>, © 2023 KarimDev. All rights reserved.</p>
+        <p className="text-center mt-10">Designed and Developed by <Link className="text-main underline" href="https://www.linkedin.com/in/karem-mohamed-a789a6239/">Karim Mohamed</Link>, © 2023 KarimDev. All rights reserved.</p>
       </div>
     </footer>
   )

@@ -8,12 +8,12 @@ import { BsGithub } from "react-icons/bs"
 
 const SinglProject = ({ id, img, title, desc, tech, live_link, github_link, reverce }: projectCard) => {
     return (
-        <div id={id.toString()} className={`border-[1px] border-gray-600 flex ${reverce ? "flex-row-reverse" : ""} p-5 rounded-lg gap-x-5 w-[1000px]`}>
-            <Image className="rounded-lg" src={img} alt={title} width={500} height={500} />
+        <div id={id.toString()} className={`border-[1px] border-gray-600 flex flex-col lg:${reverce ? "flex-row-reverse" : "flex-row"} p-5 rounded-lg gap-5 lg:w-[1000px]`}>
+            <Image className="rounded-lg w-full" src={img} alt={title} width={500} height={500} />
             <div className="flex flex-col gap-y-5 justify-around items-center w-full">
                 <h2 className="uppercase text-2xl font-semibold">{title}</h2>
                 <p className="text-gray-400 text-center">{desc}</p>
-                <div className="flex gap-x-5">
+                <div className="flex flex-wrap justify-center gap-5">
                     {tech.map((tech ,i) => (
                         <div key={i} className="py-1 px-4 bg-white text-black rounded">{tech}</div>
                     ))}
