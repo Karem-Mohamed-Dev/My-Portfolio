@@ -43,15 +43,19 @@ const Header = () => {
                     height={80}
                     alt="Logo"
                 />
-                <HiMenuAlt3 onClick={() => setShowMenu(true)} className='text-2xl' />
+                <div onClick={() => setShowMenu(true)} className='text-2xl'>
+                    <HiMenuAlt3 />
+                </div>
             </div>
             <div className={`absolute top-0 right-0 translate-x-${showMenu ? '0' : 'full'} duration-300 w-screen h-screen bg-white text-black flex flex-col items-center justify-evenly p-10`}>
-                <FaXmark onClick={() => setShowMenu(false)} className='text-3xl' />
+                <div onClick={() => setShowMenu(false)} className='text-3xl'>
+                    <FaXmark />
+                </div>
                 <ul className='gap-y-8 flex flex-col items-center text-2xl'>
-                    <li><a className='font-medium cursor-pointer duration-300 hover:text-main' href='#home'>Home</a></li>
-                    <li><a className='font-medium cursor-pointer duration-300 hover:text-main' href='#about'>About</a></li>
-                    <li><a className='font-medium cursor-pointer duration-300 hover:text-main' href='#skills'>Skills</a></li>
-                    <li><a className='font-medium cursor-pointer duration-300 hover:text-main' href='#projects'>Projects</a></li>
+                    <li><a onClick={() => setShowMenu(false)} className='font-medium cursor-pointer duration-300 hover:text-main' href='#home'>Home</a></li>
+                    <li><a onClick={() => setShowMenu(false)} className='font-medium cursor-pointer duration-300 hover:text-main' href='#about'>About</a></li>
+                    <li><a onClick={() => setShowMenu(false)} className='font-medium cursor-pointer duration-300 hover:text-main' href='#skills'>Skills</a></li>
+                    <li><a onClick={() => setShowMenu(false)} className='font-medium cursor-pointer duration-300 hover:text-main' href='#projects'>Projects</a></li>
                 </ul>
                 <div className="flex gap-6  items-center">
                     <Link href='https://www.linkedin.com/in/karem-mohamed-a789a6239/' target='_blank'>
