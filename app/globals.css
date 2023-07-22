@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* @layer base {
+    .head-underline {
+        position: relative;
+    }
+    .head-underline::before {
+            content: '';
+            width: 100%;
+            height: 3px;
+            position: absolute;
+            bottom: 0px;
+            @apply bg-main;
+    } */
+/* } */
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #151515;
+    color: #fff;
+}
