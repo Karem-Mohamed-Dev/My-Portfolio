@@ -43,7 +43,7 @@ const Header = () => {
                     height={80}
                     alt="Logo"
                 />
-                <HiMenuAlt3 onClick={() => setShowMenu(e => e= !e)} className='text-2xl' />
+                <HiMenuAlt3 onClick={() => setShowMenu(true)} className='text-2xl' />
             </div>
             <div className={`absolute top-0 right-0 translate-x-${showMenu ? '0' : 'full'} duration-300 w-screen h-screen bg-white text-black flex flex-col items-center justify-evenly p-10`}>
                 <FaXmark onClick={() => setShowMenu(false)} className='text-3xl' />
