@@ -6,7 +6,7 @@ export const projectsData: project[] = [
         img: 'https://iili.io/HQHeHil.png',
         live_link: 'https://jopify-4ea7d.web.app/',
         github_link: 'https://github.com/Karem-Mohamed-Dev/Jopyfi',
-        tech: ['React', 'Css', 'react-router', 'redux'],
+        tech: ['React','JavaScript', 'Css', 'react-router', 'redux'],
         reverce: false
     },
     {
@@ -16,7 +16,7 @@ export const projectsData: project[] = [
         img: 'https://iili.io/HQHkUCv.png',
         live_link: 'https://nourhan.vercel.app/',
         github_link: 'https://github.com/Karem-Mohamed-Dev/Architecture-portfolio',
-        tech: ['React', 'Sass', 'react-router'],
+        tech: ['React','TypeScript', 'Sass', 'react-router'],
         reverce: true
     },
 ]
