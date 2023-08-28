@@ -22,7 +22,7 @@ const Skills = () => {
           </div>
         ))}
       </div>
-      <a href='https://www.docdroid.net/wbMn6D9/karem-mohamed-pdf' target='_blank' className='border-[2px] border-black w-fit py-3 px-6 font-semibold rounded hover:bg-black hover:text-white duration-300'>View My Resume</a>
+      <a href='https://drive.google.com/file/d/1deXIFxESCqugFXuFD3N5w8F7kgOZWCJr/view?usp=sharing' target='_blank' className='border-[2px] border-black w-fit py-3 px-6 font-semibold rounded hover:bg-black hover:text-white duration-300'>View My Resume</a>
     </section>
   )
 }
