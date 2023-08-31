@@ -43,7 +43,7 @@ export const SkillsArr: skill[] = [
     },
     {
         name: 'NextJs',
-        percent: '50%',
+        percent: '90%',
         icon: 'https://www.svgrepo.com/show/354113/nextjs-icon.svg',
         color: '#000000',
     },
