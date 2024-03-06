@@ -8,14 +8,31 @@ const About = () => {
         <section id="about" className="border-b-[1px] border-gray-600">
             <div className="min-h-screen py-28 px-5 container mx-auto flex flex-col items-center justify-around">
                 <h2 className="text-4xl font-bold mb-20 underline underline-offset-8 decoration-4 decoration-main">About Me</h2>
-                <div className="flex flex-col lg:flex-row gap-x-5">
+                <div className="flex flex-col xl:flex-row xl:items-center gap-x-5">
                     <div className="flex justify-center">
-                        <Image className="w-[100%] h-auto s:w-[500px]" src={img} alt="Karim" width={500} height={500} />
+                        <Image className="w-[100%] h-fit max-w-[500px]" src={img} alt="Karim" />
                     </div>
-                    <div className="p-5">
-                        <h3 className="text-4xl mb-4">My Name Is Karim</h3>
-                        <p>I"m <span className="text-main text-2xl">Front-End</span> Developer based in Egypt, Alexandria</p>
-                        <p className="mt-5 text-gray-400 text-xl max-w-[600px]">I like to solve complex problems while creating<br /> some of the most advanced applications in the industry. <br /> Communicates with other front-end developers within the company<br /> on best practices, new technologies.<br /> Excellent knowledge of JavaScript / TypeScript, HTML and CSS <br />and front-end languages.<br /> Knowledge of React tools including React.js, Redux, and React-Router.<br /> Experience with browser-based debugging and performance testing software.<br /> Excellent troubleshooting skills.<br /> Collaborates closely with product managers, designers, and other engineering teams.</p>
+                    <div className="p-5 max-w-[700px]">
+                        <p>Hi there! I'm Karim,</p>
+                        <p>a MERN stack developer passionate about crafting exceptional web experiences.</p>
+
+                        <br />
+
+                        <p>- With a foundation built on HTML, CSS (including Sass and Tailwind for that extra flair),
+                            and JavaScript (including TypeScript for added robustness).</p>
+                        <p>I've delved into the world of modern web development with technologies like React.js and Next.js to create dynamic and responsive user interfaces.</p>
+
+                        <br />
+
+                        <p>- My journey into the realm of full-stack development led me to explore the backend with Node.js and Express.js, where I've honed my skills in building scalable and efficient server-side applications.</p>
+                        <p>- MongoDB has been my go-to database solution, allowing me to seamlessly integrate data storage into my projects.</p>
+                        <p>- Driven by a relentless curiosity and a love for solving complex problems,
+                            I thrive in collaborative environments where I can leverage my skills to turn ideas into reality.</p>
+                        <p>- Whether it's building a sleek frontend design, architecting a robust backend system, or optimizing performance for seamless user experiences, I'm always eager to tackle new challenges head-on.</p>
+                        <p>- When I'm not coding, you can find me exploring the latest trends in web development,
+
+                            experimenting with new technologies, or simply enjoying a good cup of coffee while brainstorming my next project.</p>
+                        <p>- Let's connect and explore how we can bring your ideas to life together!</p>
                     </div>
                 </div>
             </div>
