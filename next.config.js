@@ -5,8 +5,10 @@ const nextConfig = {
           {
             protocol: 'https',
             hostname: 'iili.io',
-            // port: '',
-            // pathname: '/account123/**',
+          },
+          {
+            protocol: 'https',
+            hostname: 'seeklogo.com',
           },
         ],
       },
