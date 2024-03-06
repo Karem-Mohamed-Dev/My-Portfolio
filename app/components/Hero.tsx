@@ -18,7 +18,7 @@ const Hero = () => {
         <div className="gap-5 flex flex-col">
           <span className="text-sm font-medium bg-main w-fit px-2 py-[2px] rounded-sm">Front-End Developer</span>
           <div className="text-right">
-            <h2 className='text-2xl md:text-4xl lg:text-6xl text-left'>Talk is sheap. <br /> Show me the <span className='text-main font-medium head-underline'>&#60;/Code&#62;</span></h2>
+            <h2 className='text-2xl md:text-4xl lg:text-6xl text-left'>Talk is cheap. <br /> Show me the <span className='text-main font-medium head-underline'>&#60;/Code&#62;</span></h2>
             <span className='italic text-sm text-gray-400'>~ Linus Torvalds</span>
           </div>
           <p className='text-sm w-[80%] md:text-xl text-gray-300'>A Great Design Needs  Great Devloper To Execute It.</p>
