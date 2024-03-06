@@ -64,7 +64,9 @@ const Header = () => {
                     <Link href='https://github.com/Karem-Mohamed-Dev' target='_blank'>
                         <BsGithub className='text-2xl hover:text-slate-500 duration-300' />
                     </Link>
-                    <a href='#contact' className='px-4 py-[5px] rounded border-[1px] border-black duration-300 hover:bg-black hover:text-white'>Contact Me</a>
+                    <p onClick={() => setShowMenu(false)}>
+                        <a href='#contact' className='px-4 py-[5px] rounded border-[1px] border-black duration-300 hover:bg-black hover:text-white'>Contact Me</a>
+                    </p>
                 </div>
             </div>
         </header>
