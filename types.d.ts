@@ -5,24 +5,22 @@ type skill = {
     color: string,
 }
 
-type project = {
+type BackEndData = {
     id: number,
     title: string,
     desc: string,
-    img: string,
-    live_link: string,
-    github_link: string,
-    tech: string[],
-    reverce: boolean
+    documintation?: string,
+    github_link?: string,
+    tech: string[]
 }
 
-type projectCard = {
+type FrontProject = {
     id: number,
-    img: string,
     title: string,
     desc: string,
+    img: string,
+    live_link?: string,
+    github_link?: string,
     tech: string[],
-    live_link: string,
-    github_link: string,
     reverce: boolean,
 }
