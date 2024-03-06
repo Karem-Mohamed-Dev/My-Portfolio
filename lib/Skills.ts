@@ -31,7 +31,7 @@ export const SkillsArr: skill[] = [
     },
     {
         name: 'TypeScript',
-        percent: '70%',
+        percent: '60%',
         icon: 'https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg',
         color: '#2D79C7',
     },
@@ -46,5 +46,23 @@ export const SkillsArr: skill[] = [
         percent: '90%',
         icon: 'https://www.svgrepo.com/show/354113/nextjs-icon.svg',
         color: '#000000',
+    },
+    {
+        name: 'NodeJs',
+        percent: '90%',
+        icon: 'https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg',
+        color: '#689F63',
+    },
+    {
+        name: 'ExpressJs',
+        percent: '90%',
+        icon: 'https://seeklogo.com/images/E/express-js-logo-FA36FF1D3F-seeklogo.com.png',
+        color: '#000000',
+    },
+    {
+        name: 'MongoDb',
+        percent: '80%',
+        icon: 'https://www.svgrepo.com/show/331488/mongodb.svg',
+        color: '#13AA52',
     },
 ]
