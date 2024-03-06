@@ -5,7 +5,7 @@ import FrontProject from './FrontProject'
 import BackProject from './BackProject'
 
 const Projects = () => {
-  const [selected, setSelected] = useState<string>("back");
+  const [selected, setSelected] = useState<string>("front");
   return (
     <section id='projects' className='min-h-screen py-28 px-5'>
       <div className="container mx-auto flex flex-col gap-16 items-center justify-around min-h-screen">
